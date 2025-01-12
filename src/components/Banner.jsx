@@ -6,7 +6,7 @@ const Banner = () => {
 return (
     <div className={`bg-cover bg-center bg-[url('banner.png')] h-60 md:h-96 lg:h-[30rem]`} >
         {/* Wrapper */}
-        <div className='bg-black bg-opacity-30 flex flex-col justify-around h-full px-5 sm:px-16 lg:justify-end lg:pb-16'>
+        <div className=' flex flex-col justify-around h-full px-5 sm:px-16 lg:justify-end lg:pb-16'>
         {/* Array and Leave Group */}
         <div className='flex justify-between items-center mx-3 lg:hidden'>
         <IoArrowBackOutline className='text-white text-4xl cursor-pointer active:border transition-all duration-300 p-1 rounded'/>
