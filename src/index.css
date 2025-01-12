@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans;
+  }
+}
+
+
+nav button {
+  position: relative;
+  text-decoration: none; 
+}
+
+nav button::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -8px; 
+  width: 0;
+  height: 2px;
+  background-color: currentColor; 
+  transition: width 0.3s ease; 
+}
+
+nav button:hover::after {
+  width: 100%; 
+}
+
+nav button.underline-active::after {
+  width: 100%; 
+}
+
+
