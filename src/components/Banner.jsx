@@ -17,7 +17,7 @@ return (
         {/* Text */}
         <div className='flex flex-col text-white justify-end   ml-4'>
             <h1 className='text-3xl md:text-4xl font-semibold text-nowrap'>Computer Engineering</h1>
-            <p>142,765 Computer Engineers follow this</p>
+            <p>142,765 Computer Engineers follow thi</p>
         </div>
         </div>
     </div>
